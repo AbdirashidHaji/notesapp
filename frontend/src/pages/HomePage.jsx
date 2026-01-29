@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import RateLimitedUI from "../components/RateLimitedUI";
 import { useEffect } from "react";
 import api from "../lib/axios";
@@ -54,6 +55,7 @@ const HomePage = () => {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 };
